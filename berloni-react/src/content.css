@@ -1,0 +1,14 @@
+
+h3 {
+    font-weight: 400;
+    color: #adca29;
+}
+
+.presentation {
+    display: grid;
+    grid-template-columns: 2;
+}
+
+.image {
+    border-radius: 500px;
+}

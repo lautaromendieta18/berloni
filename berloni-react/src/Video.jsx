@@ -1,11 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-function Video() {
+import video from "./assets/video.mp4";
+import "./video.css"
 
+function Video() {
+  
   return (
-    <video autoPlay muted loop>
-      <source src='./assets/videos/video.mp4' type='video/mp4'/>
-    </video>
+    <>
+      <video className="video" src={video} muted autoPlay loop/>
+      <span></span>
+    </>
+      
   )
 }
 
